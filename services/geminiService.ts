@@ -1,6 +1,6 @@
 
 import { GoogleGenAI } from "@google/genai";
-import { OWNER } from "../constants";
+import { OWNER } from "../constants.ts";
 
 export const getGeminiResponse = async (userMessage: string) => {
   try {

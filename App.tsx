@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
-import { OWNER, PROJECTS, SKILLS } from './constants';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import ProjectCard from './components/ProjectCard';
-import SkillBar from './components/SkillBar';
-import ChatBot from './components/ChatBot';
+import { OWNER, PROJECTS, SKILLS } from './constants.ts';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import ProjectCard from './components/ProjectCard.tsx';
+import SkillBar from './components/SkillBar.tsx';
+import ChatBot from './components/ChatBot.tsx';
 
 const App: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);

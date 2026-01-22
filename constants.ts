@@ -1,5 +1,5 @@
 
-import { Project, Skill, OwnerProfile } from './types';
+import { Project, Skill, OwnerProfile } from './types.ts';
 
 export const OWNER: OwnerProfile = {
   name: "김제민 (Kim Gemini)",

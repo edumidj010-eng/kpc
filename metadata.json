@@ -1,5 +1,5 @@
 {
-  "name": "Copy of AI-Powered Personal Portfolio",
+  "name": "AI-Powered Personal Portfolio",
   "description": "A modern, responsive portfolio featuring an AI assistant powered by Gemini to answer questions about the developer.",
   "requestFramePermissions": [
     "camera",
